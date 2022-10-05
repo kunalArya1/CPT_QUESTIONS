@@ -61,4 +61,20 @@ public class incrDecr {
 }
 
 //output=0
+
+4) Is the below program written correctly?
+
+    public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        boolean b = true;
+         
+        b++;
+         
+        System.out.println(b);
+    }
+}
+
+Answer : No. ++ or -- can’t be applied to boolean types.
 */
