@@ -99,3 +99,21 @@ output: i=0
         j=1
         k=2
         m=-4
+
+
+6) What will be the output of the following program?
+
+    	
+    public class IncrementDecrementQuiz {
+        public static void main(String[] args) 
+            {
+                int a=1, b=2;
+         
+                 System.out.println(--b - ++a + ++b - --a);
+            }
+    }
+
+output: a=1
+        b=2
+        
+
