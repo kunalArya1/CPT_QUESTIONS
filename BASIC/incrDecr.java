@@ -21,6 +21,23 @@ public class incrDecr {
          
                  System.out.println(i);
             }
-} 
+    } 
 
+//output: 24
+
+2) Guess the output of the following program?
+
+    public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int a=11, b=22, c;
+         
+        c = a + b + a++ + b++ + ++a + ++b;
+         
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+        System.out.println("c="+c);
+    }
+}
 */
