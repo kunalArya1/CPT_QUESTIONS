@@ -8,7 +8,7 @@ public class incrDecr {
      
  }   
 }
-/*
+
     1) What will be the output of the following program?
 
     public class IncrementDecrementQuiz 
@@ -77,4 +77,3 @@ public class incrDecr {
 }
 
 Answer : No. ++ or -- can’t be applied to boolean types.
-*/
