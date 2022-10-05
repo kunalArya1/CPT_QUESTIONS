@@ -40,4 +40,8 @@ public class incrDecr {
         System.out.println("c="+c);
     }
 }
+
+//output: a=13
+          b=24
+          c=103
 */
