@@ -44,4 +44,21 @@ public class incrDecr {
 //output: a=13
           b=24
           c=103
+
+3) What will be the output of the below program?
+
+    public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int i=0;
+         
+        i = i++ - --i + ++i - i--;
+         
+        System.out.println(i);
+         
+    }
+}
+
+//output=0
 */
