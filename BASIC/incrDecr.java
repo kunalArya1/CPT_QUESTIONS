@@ -77,3 +77,25 @@ public class incrDecr {
 }
 
 Answer : No. ++ or -- can’t be applied to boolean types.
+
+5) What will be the output of the below program?
+
+public class IncrementDecrementQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int i=1, j=2, k=3;
+         
+        int m = i-- - j-- - k--;
+         
+        System.out.println("i="+i);
+        System.out.println("j="+j);
+        System.out.println("k="+k);
+        System.out.println("m="+m);
+    }
+}
+
+output: i=0
+        j=1
+        k=2
+        m=-4
